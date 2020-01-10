@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My CV</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--
+Name: Belmin Sestic
+Course: Web Application Development
+Assignment: CV 
+Due Date: 17.11.2019.
+Purpose: The purpose of this subject is to gain a better understanding of
+HTML, CSS & JavaScript. -->
+
+   <script>
+            function insert(num){
+                document.the_input.displayfield.value = document.the_input.displayfield.value+num
+            }
+            function equal(){
+                var exp = document.the_input.displayfield.value
+                if(exp){
+                    document.the_input.displayfield.value = eval(exp)
+                }
+            }
+            function clean(){
+                document.the_input.displayfield.value = ""
+
+            }
+            function back(){
+                var exp = document.the_input.displayfield.value
+                document.the_input.displayfield.value = exp.substring(0,exp.length-1)
+            }
+        </script>
+</head>
+
+<body>
+
+<main role="main" class="inner cover">
+	<div class="card bg-dark text-white" >
+		<img style="height:1920px" src="39607.jpg" class="card-img" alt="the background">
+		<div class="card-img-overlay">
+
+			<div id="the_title">
+		
+				<h1 class= "title_class">My CV</h1>
+
+			</div>
+
+			<div id="introduction">
+
+				<h1> Introduction </h1>
+				<p>
+				This CV will be a <em>short</em> summary of my <strong>career</strong> so far.<br>
+				If you wanna search for me online please use: <a class ="btn btn-primary" type="button" href="http://www.google.com">google</a>
+				</p>
+
+			</div>
+
+			<div id="container">
+
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Progression Menu
+			    </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a href="https://bewanderer.github.io/"><em>First Submission</em></a>
+		          <div class="dropdown-divider"></div>
+		          <a href="https://github.com/bewanderer/bewanderer.github.io"><em>Repository 1</em></a><br>
+		          <div class="dropdown-divider"></div>
+		          <a href="https://github.com/bewanderer/WADProject-P2"><em>Repository 2</em></a><br>
+		          <div class="dropdown-divider"></div>
+		          <a href="https://bewanderer.github.io/WADProject-P2/"><em>Submission 2</em></a><br>
+
+		        </div>
+			</div>
+
+
+			<div id="main">
+
+				<h1>Education</h1>
+				<p>
+				<h2>Richmond Park International High School of Zenica</h2>
+				<h3>European Gymnasium</h3>
+				<em>09/2013-06/2017</em><br>
+
+				<h2>International University of Sarajevo</h2>
+				<h3>Faculty of Engineering and Natrual Sciences</h3>
+				Major: <strong>Software Engineering</strong><br>
+				<em>10/2017-ongoing</em>
+
+
+				</p>
+
+				<h1>Work Experience</h1>
+				<p>
+				<h2> Bibo Global Opportunity </h2><br>
+				<em>07/2017 - 10/2018</em><br>
+				<h3>Duties:</h3><br>
+				<ul>
+					<li>Teaching a wide variety of students, of any proficiency level, age, gender and ethnic background, written and spoken
+				English.</li>
+				<li>Documenting and evaluating the progress of students on
+				the website.</li>
+				<li>Reporting and working together with set team</li>
+				</ul>
+				</p>
+
+				<h1>This is me!</h1>
+				<img src="https://scontent.fsjj1-1.fna.fbcdn.net/v/t1.0-9/72295643_10215287971933843_5053313715651215360_n.jpg?_nc_cat=102&_nc_oc=AQk1A1uqleITYd3UPtMzXlj12oco04nd5yNwc43_IDmeTGUVgpgOdf45el4yiNxmGLc&_nc_ht=scontent.fsjj1-1.fna&oh=15ef4776bb5a6000c4912a20c2f24099&oe=5E3283DA" alt="Yes, me!" title="The creator of this file">
+
+			</div>
+
+			<div id="traits">
+
+				<h1 class="traits_class">Skills</h1>
+				<p> 
+					<ul>
+						<li>Tech-Savvy</li>
+						<li>Communication Skills</li>
+						<li>Computer Skills</li>
+						<li>English Teaching</li>
+						<li>Trilingual</li>
+					</ul>
+				</p>
+
+				<h1 class="traits_class">Languages</h1>
+				<p>
+				<ul style="list-style-type:square">
+					<li>Bosnian/Croatian/Serbian</li>
+					<li>English</li>
+					<li>German</li>
+				</ul>
+				 </p>
+
+				<h1 class="traits_class">Interests</h1>
+				<p> 
+					<ol>
+						<li>Traveling</li>
+						<li>Gaming</li>
+						<li>Skiing</li>
+						<li>Painting/Drawing</li>
+						<li>Running</li>
+						<li>Football</li>
+					</ol>
+				</p>
+
+				<p>
+					<h1>CGPA table (so far)</h1>
+					<table>
+						<tr>
+							<th>Year1</th><th>Year2</th>
+						</tr>
+						<tr>
+							<td>2.8</td><td>2.5</td>
+						</tr>
+					</table>
+				</p>
+   		
+	<p>Please fill out the form below<br>
+	So I may know who has viewed my website</p>
+
+	<form action="adduser.php" method="POST">
+		Your email address: <input type="text" name="email"/><br>
+		Your nickname: <input type="text" name="nickname"/><br>
+		Username: <input type="text" name="username"/><br>
+		Password: <input type="password" name="password"/><br>
+		<button type="submit" name="submit" >Submit</button>
+	</form>
+
+	<p>
+		<br>
+	</p>
+
+	<!-- the calculator -->
+	  <div>
+	        <div >
+	            <form name="the_input">
+	                <input class="displayfield" name="displayfield">
+	            </form>
+	            <table>
+	                <tr>
+	                    <td><input class ="btn btn-dark" type="button" value="C" onclick="clean()"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="<" onclick="back()"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="/" onclick="insert('/')"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="X" onclick="insert('*')"></td>
+	                </tr>
+	                <tr>
+	                    <td><input class ="btn btn-primary" type="button" value="7" onclick="insert(7)"></td>
+	                    <td><input class ="btn btn-primary" type="button" value="8" onclick="insert(8)"></td>
+	                    <td><input class ="btn btn-primary" type="button" value="9" onclick="insert(9)"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="-" onclick="insert('-')"></td>
+	                </tr>
+	                <tr>
+	                    <td><input class ="btn btn-primary" type="button" value="4" onclick="insert(4)"></td>
+	                    <td><input class ="btn btn-primary" type="button" value="5" onclick="insert(5)"></td>
+	                    <td><input class ="btn btn-primary" type="button" value="6" onclick="insert(6)"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="+" onclick="insert('+')"></td>
+	                </tr>
+	                <tr>
+	                    <td><input class ="btn btn-primary" type="button" value="1" onclick="insert(1)"></td>
+	                    <td><input class ="btn btn-primary" type="button" value="2" onclick="insert(2)"></td>
+	                    <td><input class ="btn btn-primary" type="button" value="3" onclick="insert(3)"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="=" onclick="equal()"></td>
+	                </tr>
+	                <tr>
+	                    <td><input class ="btn btn-primary"  type="button" value="0" onclick="insert(0)"></td>
+	                    <td><input class ="btn btn-dark" type="button" value="." onclick="insert('.')"></td>
+	                </tr>
+	            </table>
+	        </div>
+
+		</div>
+
+
+	</div>
+
+</div>
+</div>
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
