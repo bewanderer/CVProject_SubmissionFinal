@@ -1,0 +1,70 @@
+body
+{
+font-family: Times New Roman, Helvetica, sans-serif;
+}
+
+a
+{
+text-decoration: none;
+color: #3CA8DF;
+font-weight: bold;
+}
+
+#the_title 
+{
+	text-align: center; 
+}
+
+.title_class
+{
+	font-size: 32px;
+	color: white;
+	font-weight: bold;
+	font-family: six caps;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#introduction 
+{	color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+#container 
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main 
+{
+	color: white;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+
+#traits 
+{
+	color: white;
+	float: right;
+	position: relative;
+}
+
+.traits_class
+{
+	font-size: 24px;
+	color: 800020;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#footer
+{
+	color: white;
+	font-style: italic;
+	padding: 10px;
+	clear: both;
+	text-align: right;
+}
